@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Pega o nome da distro atual, em caixa baixa
+distro=$(cat /etc/os-release | awk '/^NAME=".*"/' | sed -E 's|NAME="(.*)"|\1|g' | tr '[:upper:]' '[:lower:]')
+
+if [[ $distro =~ "tumbleweed" ]]; then
+    sudo zypper dup
+    flatpak update
+    pipx upgrade-all
+fi
+
