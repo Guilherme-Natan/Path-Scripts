@@ -9,8 +9,8 @@ if [[ $1 == "-e" ]]; then
     fi
 
     nvim "$md_file"
-    kramdown --output man "$md_file" > "$mlp/mangnb/$2.gnb"
+    kramdown --output man "$md_file" > "$mlp/mangnfb/$2.gnfb"
     exit 0
 fi
 
-man gnb $1
+man gnfb $1

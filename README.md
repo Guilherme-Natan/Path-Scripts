@@ -6,9 +6,9 @@ Script que passa tudo para o diretório ~/.local/bin. Único que não ficará no
 Dependências:
 - GNU stow
 
-## maned
+## mg
 Este script é capaz tanto de editar arquivos man (no formato markdown), como
-cria-los a partir de um template.
+cria-los a partir de um template. Leia-o como "man guilherme".
 Dependências:
 - kramdown
 - neovim
