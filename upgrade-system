@@ -8,4 +8,7 @@ if [[ $distro =~ "tumbleweed" ]]; then
     flatpak update
     pipx upgrade-all
 fi
-
+if [[ $distro =~ "arch linux" ]]; then
+    sudo pacman -Syu 
+    sudo yay -Syu
+fi

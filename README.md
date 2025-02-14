@@ -12,3 +12,6 @@ cria-los a partir de um template. Leia-o como "man guilherme".
 Dependências:
 - kramdown
 - neovim
+
+## upgrade-system
+Dá upgrade em tudo o que há direito, dependendo do sistema operacional
