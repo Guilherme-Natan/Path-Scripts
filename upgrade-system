@@ -11,4 +11,5 @@ fi
 if [[ $distro =~ "arch linux" ]]; then
     sudo pacman -Syu 
     sudo yay -Syu
+    flatpak update
 fi
