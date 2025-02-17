@@ -10,6 +10,6 @@ if [[ $distro =~ "tumbleweed" ]]; then
 fi
 if [[ $distro =~ "arch linux" ]]; then
     sudo pacman -Syu 
-    sudo yay -Syu
+    yay -Syu
     flatpak update
 fi
